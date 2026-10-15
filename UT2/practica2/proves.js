@@ -1,0 +1,1 @@
+console.log (prova de conexio desde pc de casa)
