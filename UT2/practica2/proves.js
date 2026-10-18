@@ -1,1 +1,3 @@
-console.log (prova de conexio desde pc de casa)
+let a = Boolean("Hola")
+
+console.log (a)
