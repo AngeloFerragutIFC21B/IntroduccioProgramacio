@@ -8,14 +8,13 @@ console.log("=========== CONVERSOR D'UNITATS ===========");
 console.log();
 
 let bytesUsu = prompt("Diguem la mida del fitxer en bytes: ");
+console.log();
 
 bytesUsu = Number(bytesUsu);
 
 let resuKB = (bytesUsu / KB);
 let resuMB = (bytesUsu / MB);
 let resuGB = (bytesUsu / GB);
-
-console.log();
 
 console.log("Mida en Kilobytes: " + `${resuKB.toFixed(2)}`);
 console.log("Mida en Megabytes: " + `${resuMB.toFixed(2)}`);
