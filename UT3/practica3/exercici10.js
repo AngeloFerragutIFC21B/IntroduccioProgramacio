@@ -10,5 +10,5 @@ if (grausCelcius < 10) {
 } else if (grausCelcius >= 10 && grausCelcius < 25 ) {
     console.log("Tempreatura moderada.");
 } else {
-    console.log("Fa calor.")
+    console.log("Fa calor.");
 }
