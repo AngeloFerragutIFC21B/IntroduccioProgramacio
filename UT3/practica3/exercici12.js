@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')();
 
+console.log("Hola!");
+console.log("");
+
 let numUsuari = prompt("Intenta adivinar el número: ");
 
 if (numUsuari == 7) {
