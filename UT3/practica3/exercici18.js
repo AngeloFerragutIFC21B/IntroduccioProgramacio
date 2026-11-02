@@ -11,5 +11,5 @@ console.log("");
 if (edatUsu < 18 || edatUsu > 65 || carnet == "si") {
     console.log("Tens descompte");
 } else {
-    console.log("Preu normal.")
+    console.log("Preu normal.");
 }
