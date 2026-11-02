@@ -1,6 +1,6 @@
 let condicionVerdadera = 2 + 1;
 
-if (condicionVerdadera = 3) {
+if (condicionVerdadera == 3) {
     console.log("La condició és vertadera");
 }
 
