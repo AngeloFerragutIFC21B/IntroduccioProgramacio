@@ -56,17 +56,17 @@ if (verificacio == true) {
     switch (classe) {
         case "A":
             console.log("Màscara per defecte: 255.0.0.0");   
-            tipus = (adreca >= "10.0.0.0" && adreca <= "10.255.255.255") ? "Privada" : "Publica";
+            tipus = (oct1 == 10) ? "Privada" : "Publica";
             console.log("Tipus: " + tipus);
             break;
         case "B": 
             console.log("Màscara per defecte: 255.255.0.0");
-            tipus = (adreca >= "172.16.0.0" && adreca <= "172.31.255.255") ? "Privada" : "Publica";
+            tipus = (oct1 == 172 && oct2 >= 16 && oct2 <= 31) ? "Privada" : "Publica";
             console.log("Tipus: " + tipus);
             break;
         case "C": 
             console.log("Màscara per defecte: 255.255.255.0");
-            tipus = (adreca >= "192.168.0.0" && adreca <= "192.168.255.255") ? "Privada" : "Publica";
+            tipus = (oct1 == 192 && oct2 == 168) ? "Privada" : "Publica";
             console.log("Tipus: " + tipus);
             break;
         default:
